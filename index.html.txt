@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página de Producto</title>
+</head>
+<body>
+
+    <header id="header">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" alt="Logo de Producto">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Características</a>
+            <a class="nav-link" href="#pricing">Precios</a>
+            <a class="nav-link" href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="features">
+        <h2>Características</h2>
+        <p>Descripción de las características del producto.</p>
+        <iframe id="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+        <h2>Precios</h2>
+        <p>Detalles sobre los precios del producto.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            <input type="submit" id="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>
